@@ -77,7 +77,7 @@ public class ArrayUtil {
      */
     public static String[] getListIntegerToArr(List<Integer> arr) {
         String arrStr = "";
-        for (Long a : arr) {
+        for (Integer a : arr) {
             arrStr += "," + a.toString()
         }
         if (arrStr.equals("")) {
