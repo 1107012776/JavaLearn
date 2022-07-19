@@ -61,7 +61,7 @@ public class ArrayUtil {
     public static String[] getListLongToArr(List<Long> arr) {
         String arrStr = "";
         for (Long a : arr) {
-            arrStr += "," + a.toString()
+            arrStr += "," + a.toString();
         }
         if (arrStr.equals("")) {
             return new String[0];  //空数组
@@ -78,7 +78,7 @@ public class ArrayUtil {
     public static String[] getListIntegerToArr(List<Integer> arr) {
         String arrStr = "";
         for (Integer a : arr) {
-            arrStr += "," + a.toString()
+            arrStr += "," + a.toString();
         }
         if (arrStr.equals("")) {
             return new String[0];  //空数组
