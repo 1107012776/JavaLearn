@@ -2,8 +2,8 @@
 Java开发学习笔记
 
 
-# 基本操作
-## String
+## 基础知识
+
 ### String to Integer
 ```java
 Integer a = Integer.parseInt("2");
