@@ -22,4 +22,9 @@ String str = a.toString();
 Integer a = 2;
 String str = String.valueOf(a);
 ```
+### String to String[]
 
+```
+String str = "1,2,3";
+String[] arr = str.split(",");
+```
