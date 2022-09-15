@@ -1,6 +1,7 @@
 package com.utils;
 
 import com.aspose.words.Document;
+import com.aspose.words.ImportFormatMode;
 import com.aspose.words.License;
 import com.aspose.words.SaveFormat;
 
@@ -43,6 +44,39 @@ public class AsposeUtil {
 //        bean.word2Pdf2("D:\\project_new\\crm_standalone\\target\\new400——11111111.docx","D:\\project_new\\crm_standalone\\target\\new400——11111111.pdf");
         bean.word2Pdf2(input, output);
     }
+
+    /**
+     * word转pdf
+     * inpath: 输入word的路径
+     * outpath: 输出pdf的路径
+     */
+/*    public  void word2Pdf2(String inpath,String outpath) throws Exception {
+        if (!getLicense()) {
+            System.out.println("非法------------");
+            return;
+        }
+
+        long old = System.currentTimeMillis();
+        File file = new File(outpath);
+
+        FileOutputStream os = new FileOutputStream(file);
+
+        //解决乱码
+        //如果是windows执行，不需要加这个
+        //TODO 如果是linux执行，需要添加这个*****
+        //FontSettings.setFontsFolder("/usr/share/fonts",true);
+
+        Document doc = new Document(inpath);
+        Document document = new Document();//新建一个空白pdf文档
+        document.removeAllChildren();
+        document.appendDocument(doc, ImportFormatMode.USE_DESTINATION_STYLES);//保留样式
+
+        //全面支持DOC, DOCX, OOXML, RTF HTML, OpenDocument, PDF, EPUB, XPS, SWF 相互转换
+        document.save(os, SaveFormat.PDF);
+        os.close();
+        long now = System.currentTimeMillis();
+        System.out.println("共耗时：" + ((now - old) / 1000.0) + "秒");
+    }*/
 
     /**
      * word转pdf
