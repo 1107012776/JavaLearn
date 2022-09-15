@@ -12,7 +12,7 @@ import java.io.InputStream;
  * @author yvioo。
  */
 
-public class AsposeUtilTest {
+public class AsposeUtilTestTest {
 
     /**
      * 验证License 若不验证则转化出的pdf文档会有水印产生
@@ -42,7 +42,7 @@ public class AsposeUtilTest {
         }
         String input = args[0];
         String output = args[1];
-        AsposeUtil bean = new AsposeUtil();
+        AsposeUtilTest bean = new AsposeUtilTest();
 //        bean.word2Pdf2("D:\\project_new\\crm_standalone\\target\\new400——11111111.docx","D:\\project_new\\crm_standalone\\target\\new400——11111111.pdf");
         bean.word2Pdf2(input, output);
     }
