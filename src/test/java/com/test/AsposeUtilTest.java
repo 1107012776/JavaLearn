@@ -33,7 +33,8 @@ public class AsposeUtilTest {
 
     /**
      * java -jar  JavaLearn.jar "D:/project_new/crm_standalone/target/new400.docx" "D:/project_new/crm_standalone/target/new400-222.pdf"
-     * @param args
+     * java -jar JavaLearn.jar "/home/java/new400.docx"  "/home/java/new400.pdf"
+     *  @param args
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
