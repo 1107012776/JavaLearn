@@ -1,3 +1,5 @@
+package com.utils;
+
 import com.aspose.words.Document;
 import com.aspose.words.License;
 import com.aspose.words.SaveFormat;
@@ -32,8 +34,14 @@ public class AsposeUtil {
     }
 
     public static void main(String[] args) throws Exception {
+        for (String a : args){
+            System.out.println(a);
+        }
+        String input = args[0];
+        String output = args[1];
         AsposeUtil bean = new AsposeUtil();
-        bean.word2Pdf2("D:\\project_new\\crm_standalone\\target\\new400.docx","D:\\project_new\\crm_standalone\\target\\new400.pdf");
+//        bean.word2Pdf2("D:\\project_new\\crm_standalone\\target\\new400——11111111.docx","D:\\project_new\\crm_standalone\\target\\new400——11111111.pdf");
+        bean.word2Pdf2(input, output);
     }
 
     /**
