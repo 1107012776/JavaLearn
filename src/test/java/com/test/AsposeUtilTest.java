@@ -12,7 +12,7 @@ import java.io.InputStream;
  * @author yvioo。
  */
 
-public class AsposeUtilTestTest {
+public class AsposeUtilTest {
 
     /**
      * 验证License 若不验证则转化出的pdf文档会有水印产生
