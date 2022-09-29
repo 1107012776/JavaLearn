@@ -29,7 +29,31 @@
             <artifactId>poi-ooxml</artifactId>
             <version>3.17</version>
         </dependency>-->
-
-
+        <dependency>
+            <groupId>com</groupId>
+            <artifactId>javaPHP</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+    <!--    <dependency>
+            <groupId>com.hust.hui.alarm</groupId>
+            <artifactId>core</artifactId>
+            <version>0.1</version>
+        </dependency>-->
     </dependencies>
+   <repositories>
+        <repository>
+            <id>javaPHP</id>
+            <url>https://raw.githubusercontent.com/1107012776/maven-repo/master/repository/</url>
+        </repository>
+    </repositories>
+<!--    <repositories>
+        <repository>
+            <id>yihui-maven-repo-snap</id>
+            <url>https://raw.githubusercontent.com/liuyueyi/maven-repository/snapshot/repository</url>
+        </repository>
+        <repository>
+            <id>yihui-maven-repo-release</id>
+            <url>https://raw.githubusercontent.com/liuyueyi/maven-repository/release/repository</url>
+        </repository>
+    </repositories>-->
 </project>
